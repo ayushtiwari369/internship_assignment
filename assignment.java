@@ -26,7 +26,7 @@ public class assignment {
         System.out.println();
         System.out.println("\nwork started on :" + startTime.toLocalDate() + "T" + workingHourStart);
         System.out.println("time required to complete the task : " + timeRequired + " hours");
-        System.err.println("considering leaves, work will be finished on : " + endTime);
+        System.out.println("considering leaves, work will be finished on : " + endTime);
 
     }
 
